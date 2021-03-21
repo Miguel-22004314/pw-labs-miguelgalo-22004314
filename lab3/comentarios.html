@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="author" content = "Luís Miguel Galo">
+        <meta name="keywords" content= "Jamaica , Kingston , paraiso , ferias ">
+        <meta name="description" content="A melhor cidade da Jamaica">
+        <link rel="shortcut icon" type="image/x-icon" href="images/jamica.ico">
+        <title> Kingston - Jamaica</title>
+    </head>
+    <body style="background-color:#00d9ff56">
+        <h1>Kingston</h1>
+        <img src="images/Kingston.png" alt="Kingston">
+        <br>
+            <a href="index.html"><b>Introdução</b></a> |
+            <a href="local.html"><b>Localização</b></a> |
+            <a href="multimedia.html"><b>Multimédia</b></a> |
+            <a href="info.html"><b>Informações</b></a> |
+            <a href="quizz.html"><b>Quizz</b></a> |
+            <a href="comentarios.html"><b>Comentários</b></a> |
+            <a href="..\index.html"><b>Home</b></a>
+        <br>
+        <h3>Comentários</h3>
+
+        <form method="post" action="mailto:miguel2001galo@gmail.com">
+            <fieldset>
+                <legend>Clareza:</legend>
+                <p>Qual o nível de clareza (em que o significado pode ser identificado sem que haja confusão ou ambiguidade) que atribui, de 0 - 10?</p>
+                <label for="clareza">Nível de clareza:</label>
+                <input type="range" min="0" max="10" name="taxa" value="0" step="1" oninput="this.nextElementSibling.value = this.value">
+                <output name="taxaN" for="taxa">0</output>
+                <p>Justifique:</p>
+                <textarea name="justificação" cols="30" rows="10">Insira a sua resposta.</textarea>
+            </fieldset>      
+
+            <fieldset>
+            <legend>Rigor:</legend>
+                <p>Considera que existe rigor (livre de erros)?</p>
+                <label for="Sim">Sim</label>
+                <input type="radio" id="Sim" name="Opinião" value="Sim">
+                <label for="Não">Não</label>
+                <input type="radio" id="Não" name="Opinião" value="Não">
+                <p>Justifique:</p>
+                <textarea name="justificação" cols="30" rows="10">Insira a sua resposta.</textarea>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Precisão:</legend>
+                <p>Considera que existe precisão?</p>
+                <label for="Sim">Sim</label>
+                <input type="radio" id="Sim" name="Opinião" value="Sim">
+                <label for="Não">Não</label>
+                <input type="radio" id="Não" name="Opinião" value="Não">
+                <p>Justifique:</p>
+                <textarea name="justificação" cols="30" rows="10">Insira a sua resposta.</textarea>
+            </fieldset>
+               
+            <fieldset>
+                <legend>Profundidade:</legend>
+                <p>Dos seguintes termos assinale aqueles que considera que existem no Quizz.</p>
+                <p><input type="checkbox" id="complexidades" value="complexidades">Complexidades</p>
+                <p><input type="checkbox" id="múltiplasInter-relações" value="múltiplas inter-relações">Múltiplas inter-relações</p>
+                <p>Justifique:</p>
+                <textarea name="justificação" cols="30" rows="10">Insira a sua resposta.</textarea>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Amplitude:</legend>
+                <p>Em relação à amplitude, considera que foram abrangido diferentes aspetos, pontos de vista e perspetivas?</p>
+                <label for="Sim">Sim</label>
+                <input type="radio" id="Sim" name="Opinião" value="Sim">
+                <label for="Não">Não</label>
+                <input type="radio" id="Não" name="Opinião" value="Não">
+                <p>Justifique:</p>
+                <textarea name="justificação" cols="30" rows="10">Insira a sua resposta.</textarea>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Lógica:</legend>
+                <p>Considera que lógica (em que as partes fazem sentido num todo, sem contradições)?</p>
+                <textarea name="justificação" cols="30" rows="10">Insira a sua resposta.</textarea>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Significância:</legend>
+                <p>Considera que esta página está focada no importante/não trivial?</p>
+                <label for="Sim">Sim</label>
+                <input type="radio" id="Sim" name="Opinião" value="Sim">
+                <label for="Não">Não</label>
+                <input type="radio" id="Não" name="Opinião" value="Não">
+                <p>Justifique:</p>
+                <textarea name="justificação" cols="30" rows="10">Insira a sua resposta.</textarea>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Originalidade e Criatividade:</legend>
+                <p>Qual o nível de originalidade que atribui, de 0 - 10?</p>
+                <label for="originalidade">Nível de originalidade:</label>
+                <input type="range" min="0" max="10"  name="taxa" value="0" step="1" oninput="this.nextElementSibling.value = this.value">
+                <output name="taxaN" for="taxa">0</output>
+                <p>Justifique:</p>
+                <textarea name="justificação" cols="30" rows="10">Insira a sua resposta.</textarea>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Veracidade:</legend>
+                <p>Qual o nível de veracidade que atribui, de 0 - 10?</p>
+                <label for="veracidade">Nível de veracidade:</label>
+                <input type="range" name="taxa" min="0" max="10" name="taxa" step="1" oninput="this.nextElementSibling.value = this.value">
+                <output name="taxaN" for="taxa">0</output>
+                <p>Justifique:</p>
+                <textarea name="justificação" cols="30" rows="10">Insira a sua resposta.</textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Utilidade:</legend>
+                <p>Considera que a informação é relevante?</p>
+                <label for="Sim">Sim</label>
+                <input type="radio" id="Sim" name="Opinião" value="Sim">
+                <label for="Não">Não</label>
+                <input type="radio" id="Não" name="Opinião" value="Não">
+                <p>Justifique:</p>
+                <textarea name="justificação" cols="30" rows="10">Insira a sua resposta.</textarea>
+            </fieldset>
+            <input type="submit" value="Submeter">
+        </form> 
+    </body>
+</html>
