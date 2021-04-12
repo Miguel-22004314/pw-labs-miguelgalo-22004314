@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="author" content = "Luís Miguel Galo">
+        <meta name="keywords" content= "Jamaica , Kingston , paraiso , ferias ">
+        <meta name="description" content="A melhor cidade da Jamaica">
+        <link rel="shortcut icon" type="image/x-icon" href="images/jamica.ico">
+        <title> Kingston - Jamaica</title>
+    </head>
+    <body style="background-color:#00d9ff56">
+        <h1>Kingston</h1>
+        <img src="images/Kingston.png" alt="Kingston">
+        <br>
+            <a href="index.html"><b>Introdução</b></a> |
+            <a href="local.html"><b>Localização</b></a> |
+            <a href="multimedia.html"><b>Multimédia</b></a> |
+            <a href="info.html"><b>Informações</b></a> |
+            <a href="quizz.html"><b>Quizz</b></a> |
+            <a href="comentarios.html"><b>Comentários</b></a> |
+            <a href="html5-css.html">HTML5 & CSS</a> |
+            <a href="..\index.html"><b>Home</b></a>
+            
+        <br>
+        
+        <h3>Quizz</h3>  
+
+        <form method="post" action="mailto:miguel2001galo@gmail.com">
+
+            <fieldset>
+                <p>Nome:<input type="text" name="nome"></p>
+                <p>Idade:<input type="number" name="idade"></p>
+                <p>Email:<input type="email" name="email"></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pergunta 1:</legend>
+                <p>Quantas cidades já foram designadas por "Deli"?</p>
+                <label>
+                    <input type="radio" name="pergunta 1">
+                    7
+                </label>
+                <label>
+                    <input type="radio" name="pergunta 1">
+                    8
+                </label>
+                <label>
+                    <input type="radio" name="pergunta 1">
+                    9
+                </label>
+                <label>
+                    <input type="radio" name="pergunta 1">
+                    10
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pergunta 2:</legend>
+                <p>Quando foi fundado?</p>
+                <select name="ano">
+                <option value="1853">1692</option>
+                <option value="1855">1697</option>
+                <option value="1857">1696</option>
+                <option value="1859">1699</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pergunta 3:</legend>
+                <p>Qual é a Religião?</p>
+                <input list="religiao" name="religiao">
+                <datalist id="religiao">
+                    <option value="Igreja Católica">
+                    <option value="Protestante">
+                    <option value="Anglicanismo">
+                </datalist>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Pergunta 4:</legend>
+                <p>Qual a temperatuda média anual?</p>
+                <input type="range" min="10" max="30" name="taxa" value="20" step="1" oninput="taxaN.value=parseInt(taxa.value)">
+                <output name="taxaN" for="taxa">20</output>ºC
+            </fieldset>
+
+            <fieldset>
+                <legend>Pergunta 5:</legend>
+                <p>Indique as características geográficas corretas.</p>
+                <label>
+                    <input type="checkbox" name="geo" value="area">Área total: 	480 km²
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="geo" value="populaçao total">População: 1,243 milhões habitantes
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="geo" value="densidade">Densidade: 	96 052 hab./km²
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="geo" value="altitude">Altitude: 9 m 
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pergunta 6:</legend>
+                <p>Quais as cores da bandeira da da Jamaica?</p>
+                <input type="color" name="cor_principal">
+                <input type="color" name="cor_secundaria">
+                <input type="color" name="cor_tercearia">
+            </fieldset>
+
+            <fieldset>
+                <legend>Sugestões:</legend>
+                <p>Ideias para melhorar?</p>
+                <textarea name="sugestoes" cols="30" rows="10">Insira a sua resposta.</textarea>
+            </fieldset>
+
+
+            <input type="submit" value="Submeter"> 
+        </form>
+
+    </body>
+</html>

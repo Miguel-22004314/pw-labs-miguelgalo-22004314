@@ -1,0 +1,43 @@
+
+body{
+    background-color: #00d9ff56;
+}
+
+/* TABELAS */
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table, thead, caption, hx{
+    margin: 2% auto;
+}
+
+#table{
+    float: left;
+}
+
+#table > section{
+    width: 70%;
+    float: left;
+}
+
+.table-css, .table-html{
+    width: 85%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.redreen, .green, .red, td{
+    padding: 1%;
+    text-align: center;
+}
+tr:nth-child(odd) {
+    background-color: #5bb0f7;
+}
+
+tr:nth-child(even) {
+    background-color: #76ffab;
+}
